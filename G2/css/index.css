@@ -1,2 +1,180 @@
 body {
+    margin: 0px;
+    background-image: url("../images/diamondplate.jpg");
+    background-size: 100% auto;
+}
+
+#header {
+    width: 95%;
+    margin: auto;
+    height: 120px;
+    padding: 2%;
+    background-image: url("../images/holesteel.jpg");
+    background-size: 120px 95%;
+    position: fixed;
+    top: 0px;
+    box-shadow: 15px 15px 15px black;
+}
+#nav{
+    float: right;
+    background-image: url("../images/orange.jpg");
+    background-size: 100% 100%;
+    width: 80%;
+    height: 80%;
+    margin: 1%;
+    box-shadow: 10px 10px 10px black;
+}
+#navmenu{
+    float: left;
+    margin: 4%;
+    margin-top:2%;
+    width: 95%;
+    padding-left: 0;
+    
+}
+.list{
+    color: #fff;
+    display: inline-block;
+    margin:0.5%;
+    margin-top: 10px;
+    padding: 1% 5%;
+    background-image: url("../images/brushedsteel.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 12%;
+    height: 10%;
+    box-shadow: 8px 5px 5px black;
+}
+#img{
+    border: 8px ridge #383838;
+    background-image: url("../images/logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 3%;
+    width: 12%;
+    height: 100%;
+    box-shadow: 8px 5px 5px black;
+}
+
+#content1{
+    width: 70%;
+    height: 400px ;
+    margin: auto;
+    margin-top: 25%;
+    background-image: url("../images/brushedsteel.jpg");
+    background-size: 100% 100%;
+    box-shadow: 8px 8px 8px black;
+}
+#logo{
+    width: 45%;
+    height: 60%;
+    margin: 3%;
+    margin-top: 10%;
+    float: left;
+    background-image: url("../images/armlogo.png");
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    
+}
+
+#login{
+    border: 1px solid black;
+    width: 40%;
+    height: 90%;
+    margin: 3%;
+    float:right;
+    background-image: url("../images/orange.jpg");
+    background-size: 100% 100%;
+    box-shadow: 8px 8px 8px black;
+}
+#loginHead{
+    border: 8px ridge #3a352d;
+    width: 90%;
+    height: 20%;
+    margin: 2% auto;
+    color: #fff;
+    text-align: center;
+    background-image: url("../images/brushedsteel.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+#loginFields{
+    border:  8px ridge #3a352d;
+    width: 90%;
+    height: 65%;
+    margin: 3% auto;
+    background-image: url("../images/brushedsteel.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#loginboxes{
+    
+}
+.logintextbox{
+    border: 1px solid black;
+    list-style-type: none;
+    padding:  5%;
+    margin: 3%;
+    margin-top: 10%;
+    display: block;
+    background-color: #fff
+}
+#content2{
+    //border: 3px solid orange;
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+    margin-top: 8%;
+    //background-image: url("../images/holesteel.jpg");
+    //box-shadow: 15px 15px 15px black;
+}
+
+#column1 {
+    width:25%;
+    display: inline-block;
+    margin: auto 3% ;
+    margin-left: 5%;
+    height: 95%;
+}
+
+
+#column2 {
+    width:25%;
+    display: inline-block;
+    margin: auto 3%;
+    height: 95%;
+}
+
+#column3 {
+    width:25%;
+    display: inline-block;
+    margin: auto 3%;
+    height: 95%;
+}
+
+.contentBox{
+    border: 5px ridge #3a352d;
+    height: 30%;
+    width: 100%;
+    margin-top: 10%;
+    box-shadow: 15px 15px 15px black;
+    background-image: url("../images/brushedsteel.jpg");
+}
+.contentheading{
+    background-image: url("../images/orange.jpg");
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+#footer{
+    border: 3px solid orange;
+    width: 90%;
+    height: 130px;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 8px 5px 5px black;
+    background-image: url("../images/holesteel.jpg")
+    
 }
