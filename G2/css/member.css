@@ -1,2 +1,20 @@
 body {
+    border: 1px solid black;
+    font-family: Trebuchet MS;
+	width: 850px;		
+	margin: auto;
+	margin-top: 5px;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#header{
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+#footer{
+	border-top: 1px solid black;
+	text-align: center;
+	font-size: 80%;
 }
