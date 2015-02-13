@@ -71,45 +71,6 @@ body {
     
 }
 
-#content {
-    color: #fff;
-    border: 3px solid orange;
-    width: 75%;
-    height: 390px;
-    margin: auto;
-    margin-top: 15%;
-    box-shadow: 8px 5px 5px black;
-    background-image: url("../images/holesteel.jpg")    
-}
-
-#userimage {
-   
-   border: 3px solid orange;
-   width: 128px;
-   height: 136px;
-   float: left;
-   margin-left: 1%;
-   margin-top: 1%;
-   box-shadow: 8px 5px 5px black;
-   
-}
-
-#progress {
-position: relative;
--webkit-transform: rotate(90deg);
--moz-transform: rotate(90deg);
--ms-transform: rotate(90deg);
-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-width: 1%;
-height: 1%;
-float: left;
-left: 0;
-margin-top: 10%;
-}
-
-#usermenu {
-}
-
 #footer{
     color: #fff;
     border: 3px solid orange;
@@ -118,9 +79,15 @@ margin-top: 10%;
     margin: auto;
     margin-top: 5%;
     box-shadow: 8px 5px 5px black;
-    background-image: url("../images/holesteel.jpg");
-    text-align: center;
+    background-image: url("../images/holesteel.jpg")
+    
 }
 
 
-
+#userimage {
+   position: relative;
+   border: 3px solid orange;
+   margin: auto;
+   width: 128px;
+   height: 136px;
+}
