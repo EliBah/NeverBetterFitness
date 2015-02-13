@@ -1,2 +1,148 @@
+html {
+	height:100%;
+	margin:0;
+	padding:0;
+}
 body {
+    margin: 0px;
+	padding:0;
+    background-image: url("../images/brushedsteel.jpg");
+    background-size: 100% auto;
+	height: 100%;
+}
+
+#wrap{
+	min-height: 100%;
+	position:relative;
+}
+
+#header {
+    width: 95%;
+    margin: auto;
+    height: 120px;
+    padding: 2%;
+    background-image: url("../images/holesteel.jpg");
+    background-size: 120px 95%;
+    position: relative;
+    top: 0px;
+    box-shadow: 15px 15px 15px black;
+}
+#nav{
+    float: right;
+    background-image: url("../images/orange.jpg");
+    background-size: 100% 100%;
+    width: 80%;
+    height: 80%;
+    margin: 1%;
+    box-shadow: 10px 10px 10px black;
+}
+#navmenu{
+    float: left;
+    margin: 4%;
+    margin-top:2%;
+    width: 95%;
+    padding-left: 0;    
+}
+#img{
+    border: 8px ridge #383838;
+    background-image: url("../images/logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 3%;
+    width: 12%;
+    height: 100%;
+    box-shadow: 8px 5px 5px black;
+}
+.list{
+    color: #fff;
+    display: inline-block;
+    margin:0.5%;
+    margin-top: 10px;
+    padding: 1% 5%;
+    background-image: url("../images/brushedsteel.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 12%;
+    height: 10%;
+    box-shadow: 8px 5px 5px black;
+}
+h1{
+	color: orange;
+}
+#table_holder{	
+	position:absolute;
+	bottom: 450px;
+	left: 50px;
+	width: 65%;
+	height: 500px;
+}
+.workout_table{
+	width:100%;
+	height:100%;
+	border-collapse:collapse;
+}
+.workout_table td{
+	padding:7px;
+	border: #4e95f4 1px solid; 	
+}
+.workout_table tr{
+	background: #b8d1f3;
+}
+.workout_table tr td:nth-child(odd){
+	background: #b8d1f3;
+}
+
+.workout_table tr td:nth-child(even) {
+	background: #dae5f4;
+}
+
+.workout_table tr:hover {
+	background-color: #ffff99;
+}
+
+#user{
+	background-color: orange;
+	height: 350px;
+	width: 250px;
+	float: right;
+	position:relative;
+	top: 50px;
+	right: 100px;
+	position: center;
+}
+
+#prof_pic{
+	width: 90px;
+	height: 100px;
+	margin-left: 33%;
+	margin-right: 33%;
+}
+
+#ads{
+	position:absolute;
+	background-image: url("../images/ad_1.jpg");
+	background-size: 250px 350px;
+	height: 350px;
+	width: 250px;		
+	top: 650px;
+	right: 100px;	
+}
+#footer{
+    border: 3px solid orange;
+    width: 90%;
+    height: 130px;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 8px 5px 5px black;
+    background-image: url("../images/holesteel.jpg");
+	position: absolute;
+    bottom: 0;
+}
+#content{
+	padding-bottom: 650px;
+}
+
+.clear{
+	clear:both;
 }
