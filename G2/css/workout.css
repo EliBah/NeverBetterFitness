@@ -1,3 +1,13 @@
+/*MAKE A BUTTON
+Font and colour and base CSS for everyone
+Choose a font and a colour that works for every page
+Fix the logo that Francis didn't do right the first time.
+comment my css with proper comments
+Francis wants me to comment the base css as well.
+
+Upload website to webhost and post all the links in the word doc.*/
+
+
 html {
 	height:100%;
 	margin:0;
@@ -6,7 +16,7 @@ html {
 body {
     margin: 0px;
 	padding:0;
-    background-image: url("../images/brushedsteel.jpg");
+    background-image: url("../images/diamondplate.jpg");
     background-size: 100% auto;
 	height: 100%;
 }
@@ -69,47 +79,55 @@ body {
 }
 h1{
 	color: orange;
+	text-align:center;
 }
 #table_holder{	
 	position:absolute;
-	bottom: 450px;
+	bottom: 250px;
 	left: 50px;
-	width: 65%;
-	height: 500px;
+	width: 75%;
+	height: 700px;
+	background-image: url("../images/brushedsteel.jpg");
+	box-shadow: 8px 5px 5px black;
 }
 .workout_table{
-	width:100%;
-	height:100%;
+	width:80%;
+	height:80%;
 	border-collapse:collapse;
+	margin-left:auto;
+	margin-right:auto;
 }
 .workout_table td{
 	padding:7px;
-	border: #4e95f4 1px solid; 	
+	border: #3a352d 10px solid; 	
 }
 .workout_table tr{
-	background: #b8d1f3;
+	background: #ff7c00;
 }
-.workout_table tr td:nth-child(odd){
-	background: #b8d1f3;
+/*.workout_table tr td:nth-child(odd){
+	background: #ff7c00;
 }
 
 .workout_table tr td:nth-child(even) {
-	background: #dae5f4;
-}
+	background: #3a352d;
+}*/
 
-.workout_table tr:hover {
+.workout_table td:hover {
 	background-color: #ffff99;
 }
 
 #user{
-	background-color: orange;
+	background-image: url("../images/brushedsteel.jpg");
+	/*Color should be orange #ff7c00*/
 	height: 350px;
+	color:red;
 	width: 250px;
 	float: right;
 	position:relative;
 	top: 50px;
 	right: 100px;
 	position: center;
+	box-shadow: 15px 15px 15px black;
 }
 
 #prof_pic{
@@ -117,6 +135,7 @@ h1{
 	height: 100px;
 	margin-left: 33%;
 	margin-right: 33%;
+	border-radius: 150px;
 }
 
 #ads{
@@ -130,14 +149,14 @@ h1{
 }
 #footer{
     border: 3px solid orange;
-    width: 90%;
+    width: 95%;
     height: 130px;
     margin: auto;
     margin-top: 5%;
     box-shadow: 8px 5px 5px black;
     background-image: url("../images/holesteel.jpg");
 	position: absolute;
-    bottom: 0;
+    bottom: 0;	
 }
 #content{
 	padding-bottom: 650px;
@@ -145,4 +164,9 @@ h1{
 
 .clear{
 	clear:both;
+}
+
+a:link{
+	color: red;
+	text-decoration: none;	
 }
