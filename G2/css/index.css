@@ -4,17 +4,7 @@ body {
     background-size: 100% auto;
 }
 
-#header {
-    width: 95%;
-    margin: auto;
-    height: 120px;
-    padding: 2%;
-    background-image: url("../images/holesteel.jpg");
-    background-size: 120px 95%;
-    position: fixed;
-    top: 0px;
-    box-shadow: 15px 15px 15px black;
-}
+
 #nav{
     float: right;
     background-image: url("../images/orange.jpg");
