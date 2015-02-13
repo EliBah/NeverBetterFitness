@@ -98,6 +98,7 @@ body {
 position: relative;
 -webkit-transform: rotate(90deg);
 -moz-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
 filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 width: 1%;
 height: 1%;
