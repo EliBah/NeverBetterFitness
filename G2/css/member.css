@@ -6,7 +6,6 @@ body {
 
 
 
-
 .list2 {
     color: #fff;
     margin: 0.5%;
@@ -109,19 +108,53 @@ progress[value] {
 }
 
 #userprogress {
-    margin-top: 20%
+   margin-top: 20%;
 }
 
-#usermenu {
-    margin: auto;
-    list-style-type: none;  
-}
 #userstats {
     margin: auto;
     margin-top: 60%;
     list-style-type: none;
 }
 
+#link1 {
+   margin: auto;
+   margin-bottom: 25%;
+   padding: 1% 7%;
+   background-image: url("../images/brushedsteel.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   width: 26%;
+   height: 10%;
+   box-shadow: 8px 5px 5px black;
+   text-align: left; 
+}
+
+#link2 {
+   margin: auto;
+   margin-bottom: 25%;
+   padding: 1% 7%;
+   background-image: url("../images/brushedsteel.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   width: 26%;
+   height: 10%;
+   box-shadow: 8px 5px 5px black; 
+   text-align: left; 
+}
+
+#link3 {
+   margin: auto;
+   margin-bottom: 25%;
+   padding: 1% 7%;
+   background-image: url("../images/brushedsteel.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   width: 26%;
+   height: 10%;
+   box-shadow: 8px 5px 5px black; 
+   text-align: left; 
+}
 
 
 
