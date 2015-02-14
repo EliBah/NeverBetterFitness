@@ -34,38 +34,27 @@
 /* unvisited link */
 a:link {
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 /* visited link */
 a:visited {
     color: #FFFFFF;
+    text-decoration: none;
 }
 
-/* mouse over link */
+/* hovered link */
 a:hover {
     color: #FF7C00;
+    text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-    color: #3A352D;  
+    color: #3A352D;
+    text-decoration: underline;  
 }
 
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    text-decoration: underline;
-}
 
 .list{
     color: #fff;
