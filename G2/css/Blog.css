@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    background-image: url("../images/diamondplate.jpg");
+    background-size: 100% auto;
+}
+#content1{
+    width: 70%;
+    height: 400px ;
+    margin: auto;
+    margin-top: 25%;
+    background-image: url("../images/brushedsteel.jpg");
+    background-size: 100% 100%;
+    box-shadow: 8px 8px 8px black;
+	float: top;
+}
+#logo{
+    width: 45%;
+    height: 60%;
+    margin: 3%;
+    margin-top: 10%;
+    float: left;
+    background-image: url("../images/armlogo.png");
+    background-repeat: no-repeat;
+    background-size: 300px auto;   
+}
+#content2{   
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+    margin-top: 8%;
+	padding-top: 50px;
+}
+#column2 {
+    width:25%;
+    display: inline-block;
+    margin: auto 10%;
+    height: 95%;
+	margin-left: 265px;
+}
+#column2 h1  {
+	text-align: center;
+	
+}
+.contentBox{
+    border: 5px ridge orange;
+    height: 300px;
+    width: 1000px;
+    margin-top: 10%;
+    box-shadow: 15px 15px 15px black;
+    background-image: url("../images/brushedsteel.jpg");
+	
+}
+.contentheading{
+    background-image: url("../images/orange.jpg");
+    background-size: 100% 100%;
+    color: #ffffff;
+	border-bottom: 5px ridge #3a352d;
+	border-top: 5px ridge #3a352d;
+}
+.contentBox p {
+	color: #ffffff;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#footer p{
+	background-color: orange;
+	background-size: 100% 100%;
+	font-size: 20px;
+	text-align: center;
+}
+
