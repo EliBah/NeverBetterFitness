@@ -60,6 +60,8 @@ body {
     background-repeat: no-repeat;
 }
 #loginboxes{
+    margin-top: 20%  ;
+    color: #fff;
     
 }
 .logintextbox{
@@ -115,6 +117,9 @@ body {
 .contentheading{
     background-image: url("../images/orange.jpg");
     background-size: 100% 100%;
+    color: #fff;
+}
+p{
     color: #fff;
 }
 

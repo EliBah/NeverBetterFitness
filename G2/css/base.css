@@ -41,6 +41,19 @@
     height: 10%;
     box-shadow: 8px 5px 5px black;
 }
+a:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+.menulink:hover{
+    background-color: orange;
+    padding: 3% 20%;
+}
+
+
 #img{
     border: 8px ridge #383838;
     background-image: url("../images/logo.png");
