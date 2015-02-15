@@ -69,14 +69,15 @@ a:active {
     height: 10%;
     box-shadow: 8px 5px 5px black;
 }
-a:visited{
+a.menulink:visited{
     color: #FFFFFF;
     text-decoration: none;
 }
-a:link{
+a.menulink:link{
     text-decoration: none;
 }
-.menulink:hover{
+a.menulink:hover{
+    color: #FFFFFF;
     background-color: orange;
     padding: 3% 20%;
 }
