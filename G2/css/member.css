@@ -1,93 +1,161 @@
+/*Author: Eliman Bah*/
+
+/*Body of the site*/
 body {
     margin: 0px;
     background-image: url("../images/diamondplate.jpg");
     background-size: 100% auto;
 }
 
-#header {
-    width: 95%;
-    margin: auto;
-    height: 120px;
-    padding: 2%;
-    background-image: url("../images/holesteel.jpg");
-    background-size: 120px 95%;
-    position: fixed;
-    top: 0px;
-    box-shadow: 15px 15px 15px black;
-}
-#nav{
-    float: right;
-    background-image: url("../images/orange.jpg");
-    background-size: 100% 100%;
-    width: 80%;
-    height: 80%;
-    margin: 1%;
-    box-shadow: 10px 10px 10px black;
-}
-#navmenu{
-    float: left;
-    margin: 4%;
-    margin-top:2%;
-    width: 95%;
-    padding-left: 0;
-    
-}
 
-.list {
+/*Style for page specific lists*/
+.list2 {
     color: #fff;
-    display: inline-block;
     margin: 0.5%;
     margin-top: 10px;
     padding: 1% 5%;
     background-image: url("../images/brushedsteel.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 12%;
-    height: 10%;
+    width: 24%;
+    height: 50%;
     box-shadow: 8px 5px 5px black;
 }
 
-#img{
-    border: 8px ridge #383838;
-    background-image: url("../images/logo.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    float: left;
-    margin-left: 3%;
-    width: 12%;
-    height: 100%;
-    box-shadow: 8px 5px 5px black;
-}
-
-#logo{
-    width: 45%;
-    height: 60%;
-    margin: 3%;
-    margin-top: 10%;
-    float: left;
-    background-image: url("../images/armlogo.png");
-    background-repeat: no-repeat;
-    background-size: 300px auto;
-    
-}
-
-#footer{
+/*Style for the main content section*/
+#content {
     color: #fff;
     border: 3px solid orange;
-    width: 90%;
-    height: 130px;
+    width: 75%;
+    height: 390px;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 15%;
     box-shadow: 8px 5px 5px black;
-    background-image: url("../images/holesteel.jpg")
-    
+    background-image: url("../images/brushedsteel.jpg")    
 }
 
+/*Style for the first column in the content*/
+#column1 {
+    width:25%;
+    display: inline-block;
+    margin: auto 3% ;
+    margin-left: 5%;
+    height: 95%;
+}
 
+/*Style for the second column in the content*/
+#column2 {
+    width:25%;
+    display: inline-block;
+    margin: auto 3%;
+    height: 95%;
+}
+
+/*Style for the third column in the content*/
+#column3 {
+    width:25%;
+    display: inline-block;
+    margin: auto 3%;
+    height: 95%;
+}
+
+/*Style for the user image in the first column*/
 #userimage {
-   position: relative;
+   background-image: url("../images/sundowner-temp-userimage.jpg");
    border: 3px solid orange;
-   margin: auto;
    width: 128px;
    height: 136px;
+   float: left;
+   margin-left: 1%;
+   margin:auto;
+   margin-top: 5%;
+   box-shadow: 8px 5px 5px black;
+   
+}
+
+/*Style for the user info in the first column*/
+#userstats {
+    margin: auto;
+    margin-top: 60%;
+    list-style-type: none;
+}
+
+/*Style for the progress bar in the second column*/
+#progress {
+    position: relative;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    width: 1%;
+    height: 1%;
+    float: left;
+    left: 0;
+    margin-top: 15%;
+}
+
+/*Style for the progress bar size in the second column*/
+progress[value] {
+    width: 250px;
+    height: 30px;
+}
+
+/*Style for the progress text in the second column*/
+#userprogress {
+   margin-top: 20%;
+   padding: 1% 3%;
+   background-image: url("../images/brushedsteel.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   width: 26%;
+   height: 10%;
+   box-shadow: 8px 5px 5px black; 
+   text-align: left;
+}
+
+/*Style for the first link in the third column*/
+#link1 {
+   margin: auto;
+   margin-bottom: 25%;
+   padding: 1% 7%;
+   background-image: url("../images/brushedsteel.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   width: 26%;
+   height: 10%;
+   box-shadow: 8px 5px 5px black;
+   text-align: left; 
+}
+
+/*Style for the second link in the third column*/
+
+#link2 {
+   margin: auto;
+   margin-bottom: 25%;
+   padding: 1% 7%;
+   background-image: url("../images/brushedsteel.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   width: 26%;
+   height: 10%;
+   box-shadow: 8px 5px 5px black; 
+   text-align: left; 
+}
+
+/*Style for the third link in the third column*/
+#link3 {
+   margin: auto;
+   margin-bottom: 25%;
+   padding: 1% 7%;
+   background-image: url("../images/brushedsteel.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   width: 26%;
+   height: 10%;
+   box-shadow: 8px 5px 5px black; 
+   text-align: left; 
+}
+
+p{
+  color: #fff;
 }
