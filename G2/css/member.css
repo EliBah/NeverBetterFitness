@@ -155,3 +155,7 @@ progress[value] {
    box-shadow: 8px 5px 5px black; 
    text-align: left; 
 }
+
+p{
+  color: #fff;
+}
