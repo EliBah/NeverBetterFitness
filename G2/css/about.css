@@ -1,3 +1,8 @@
+body {
+    margin: 0px;
+    background-image: url("../images/diamondplate.jpg");
+    background-size: 100% auto;
+}
 #nav{
     float: right;
     background-image: url("../images/orange.jpg");
@@ -49,6 +54,7 @@
     box-shadow: 8px 8px 8px black;
 	padding-right: 100px;
 	padding-left: 100px;
+	border: 3px solid orange;
 	
 }
 #column1 {
@@ -87,7 +93,7 @@
 	text-align: center;
 }
 #footer p{
-	background-image: url("../images/orange.jpg");
+	background-color: orange;
 	background-size: 100% 100%;
 	font-size: 20px;
 }
