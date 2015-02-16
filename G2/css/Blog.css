@@ -42,7 +42,6 @@ body {
 	
 }
 .contentBox{
-    border: 5px ridge orange;
     height: 300px;
     width: 1000px;
     margin-top: 10%;
@@ -54,8 +53,6 @@ body {
     background-image: url("../images/orange.jpg");
     background-size: 100% 100%;
     color: #ffffff;
-	border-bottom: 5px ridge #3a352d;
-	border-top: 5px ridge #3a352d;
 }
 .contentBox p {
 	color: #ffffff;
@@ -63,10 +60,4 @@ body {
 	padding-left: 30px;
 }
 
-#footer p{
-	background-color: orange;
-	background-size: 100% 100%;
-	font-size: 20px;
-	text-align: center;
-}
 

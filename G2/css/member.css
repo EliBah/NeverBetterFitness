@@ -142,6 +142,11 @@ progress[value] {
    text-align: left; 
 }
 
+#footer p{
+	font-size: 20px;
+	text-align: center;
+}
+
 /*Style for the third link in the third column*/
 #link3 {
    margin: auto;
