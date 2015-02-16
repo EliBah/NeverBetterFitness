@@ -1,18 +1,12 @@
-/*MAKE A BUTTON *****Done*****
-Font and colour and base CSS for everyone
-Choose a font and a colour that works for every page
-Fix the logo that Francis didn't do right the first time. *****Done*****
-comment my css with proper comments
-Francis wants me to comment the base css as well.
+/*CSS for the workout page*/
 
-Upload website to webhost and post all the links in the word doc.*/
-
-
+/*Sets the html to be the full page height*/
 html {
 	height:100%;
 	margin:0;
 	padding:0;
 }
+/*Sets up the background picture*/
 body {
     margin: 0px;
 	padding:0;
@@ -20,12 +14,12 @@ body {
     background-size: 100% auto;	
 	height: 100%;
 }
-
+/*This is used to keep the footer at the bottom*/
 #wrap{
 	min-height: 100%;
 	position:relative;
 }
-
+/*Used for the separate heading used on the workout page*/
 #dif_header {
     width: 95%;
     margin: auto;
@@ -37,38 +31,12 @@ body {
     top: 0px;
     box-shadow: 15px 15px 15px black;
 }
-#nav{
-    float: right;
-    background-image: url("../images/orange.jpg");
-    background-size: 100% 100%;
-    width: 80%;
-    height: 80%;
-    margin: 1%;
-    box-shadow: 10px 10px 10px black;
-}
-#navmenu{
-    float: left;
-    margin: 4%;
-    margin-top:2%;
-    width: 95%;
-    padding-left: 0;    
-}
-#logo{
-    border: 8px ridge #383838;
-	background-image: url("../images/logo.gif");	
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    float: left;
-    margin-left: 3%;
-    width: 12%;
-    height: 100%;
-    box-shadow: 8px 5px 5px black;
-}
-
+/*The header for the workout table*/
 h1{
 	color: orange;
 	text-align:center;
 }
+/*The table for the workout log*/
 #table_holder{	
 	position:absolute;
 	bottom: 250px;
@@ -78,6 +46,7 @@ h1{
 	background-image: url("../images/brushedsteel.jpg");
 	box-shadow: 8px 5px 5px black;
 }
+/*Sets up the table*/
 .workout_table{
 	width:80%;
 	height:80%;
@@ -85,16 +54,20 @@ h1{
 	margin-left:auto;
 	margin-right:auto;
 }
+/*Sets up the table data*/
 .workout_table td{
 	padding:7px;
 	border: #3a352d 10px solid; 	
 }
+/*Sets up the table rows*/
 .workout_table tr{
 	background: #ff7c00;
 }
+/*Sets up the hover for the table data*/
 .workout_table td:hover {
 	background-color: #ffff99;
 }
+/*Sets up the user profile div*/
 #user{
 	background-image: url("../images/brushedsteel.jpg");
 	/*Color should be orange #ff7c00*/
@@ -108,7 +81,7 @@ h1{
 	position: center;
 	box-shadow: 15px 15px 15px black;
 }
-
+/*Sets up the profile pic under the user profile div*/
 #prof_pic{
 	width: 90px;
 	height: 100px;
@@ -116,7 +89,7 @@ h1{
 	margin-right: 33%;
 	border-radius: 150px;
 }
-
+/*Placeholder for the ads*/
 #ads{
 	position:absolute;
 	background-image: url("../images/ad_1.jpg");
@@ -126,24 +99,26 @@ h1{
 	top: 650px;
 	right: 100px;	
 }
+/*The footer at the bottom of the page*/
 #footer{
 	color:white;
     border: 3px solid orange;
-    width: 95%;
+    width: 100%;
     height: 130px;
-    margin-left: auto;
-	margin-right: auto;
+    margin: auto;
     margin-top: 5%;
     box-shadow: 8px 5px 5px black;
     background-image: url("../images/holesteel.jpg");
+	left: 2.5%;
+    text-align: center;
 	position: absolute;
     bottom: 0;
-    text-align:  center;
 }
+/*Padding for the content*/
 #content{
 	padding-bottom: 650px;
 }
-
+/*This is necessary for the footer to work*/
 .clear{
 	clear:both;
 }
