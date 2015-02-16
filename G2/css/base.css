@@ -74,7 +74,7 @@ a.menulink:hover{
 }
 /*Sets up the logo for each of the pages*/
 #img{
-    border: 8px ridge #383838;
+
     background-image: url("../images/logo.gif");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ a.menulink:hover{
     margin-left: 3%;
     width: 12%;
     height: 100%;
-    box-shadow: 8px 5px 5px black;
+    
 }
 /*Sets up the footer for each of the pages*/
 #footer{
