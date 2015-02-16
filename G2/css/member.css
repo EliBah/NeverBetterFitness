@@ -90,6 +90,7 @@ body {
     float: left;
     left: 0;
     margin-top: 15%;
+	z-index: 0;
 }
 
 /*Style for the progress bar size in the second column*/
