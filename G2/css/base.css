@@ -9,6 +9,7 @@
     position: fixed;
     top: 0px;
     box-shadow: 15px 15px 15px black;
+	z-index: 1;
 }
 /*Sets up the navbar for all of the pages*/
 #nav{
