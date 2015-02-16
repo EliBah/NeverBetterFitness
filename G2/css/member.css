@@ -7,6 +7,19 @@ body {
     background-size: 100% auto;
 }
 
+/* .list{
+	color: #fff;
+	display: inline-block;
+	margin:0.5%;
+	margin-top: 10px;
+	padding: 1% 5%;
+	background-image: url("../images/brushedsteel.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 12%;
+	height: 10%;
+	box-shadow: 8px 5px 5px black;
+} */
 
 /*Style for page specific lists*/
 .list2 {
@@ -140,6 +153,11 @@ progress[value] {
    height: 10%;
    box-shadow: 8px 5px 5px black; 
    text-align: left; 
+}
+
+#footer p{
+	font-size: 20px;
+	text-align: center;
 }
 
 /*Style for the third link in the third column*/

@@ -30,7 +30,6 @@ body {
     box-shadow: 8px 8px 8px black;
 	padding-right: 100px;
 	padding-left: 100px;
-	border: 3px solid orange;
 	
 }
 #column1 {
@@ -67,11 +66,7 @@ body {
 #footer{
 	color: #ffffff;
 	text-align: center;
-}
-#footer p{
-	background-color: orange;
-	background-size: 100% 100%;
-	font-size: 20px;
+    font-size: 20px;
 }
 #content3 {
 	margin-top: -200px;
