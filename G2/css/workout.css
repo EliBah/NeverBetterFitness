@@ -64,15 +64,7 @@ body {
     height: 100%;
     box-shadow: 8px 5px 5px black;
 }
-.lisst{
-    color: #fff;
-    display: inline-block;
-    margin:0;
-    margin-right: 12%;
-    padding: 0;    
-	width: 12%;
-    height: 100%;
- }
+
 h1{
 	color: orange;
 	text-align:center;
@@ -100,18 +92,9 @@ h1{
 .workout_table tr{
 	background: #ff7c00;
 }
-/*.workout_table tr td:nth-child(odd){
-	background: #ff7c00;
-}
-
-.workout_table tr td:nth-child(even) {
-	background: #3a352d;
-}*/
-
 .workout_table td:hover {
 	background-color: #ffff99;
 }
-
 #user{
 	background-image: url("../images/brushedsteel.jpg");
 	/*Color should be orange #ff7c00*/
@@ -148,7 +131,8 @@ h1{
     border: 3px solid orange;
     width: 95%;
     height: 130px;
-    margin: auto;
+    margin-left: auto;
+	margin-right: auto;
     margin-top: 5%;
     box-shadow: 8px 5px 5px black;
     background-image: url("../images/holesteel.jpg");
