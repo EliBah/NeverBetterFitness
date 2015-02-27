@@ -35,6 +35,7 @@
                     <p> Sign up or login in here to take full advantage of our site!</p>
                 </div>
                 <div id="loginFields">
+<<<<<<< HEAD
                     <form id="loginboxes">
                         <ul>
                         <li><label for="e-mail">e-mail</label>
@@ -44,6 +45,27 @@
                         <li><label for="Password">Password:</label><br>
                         <input type="text" name="password" onblur=""></li>
                         </ul>
+=======
+                    <form id="loginboxes" action="http://webdevfoundations.net/scripts/formdemo.asp">
+                        <ul id="form">
+                            <!-- email-->
+                        <li><label class="formList" for="e-mail">e-mail:</label><br>
+                        <input class="formList" type="email" name="e-mail" id="e-mail" onblur="email_id"></li>
+                            <!-- username -->
+                        <li><label class="formList" for="username">Username:</label><br>
+                        <input class="formList" type="text" name="username" id="username" onblur="user_id"></li>
+                             <!--password-->
+                        <li><label class="formList" for="password">Password:</label><br>
+                        <input class="formList" type="text" name="password" id="password" onblur="pass_id"></li>
+                             <!-- radio buttons -->
+                        <li><label class="formList" for="sign-in">Sign up!</label>
+                        <input class="formList" type="radio" name="sign-in" id="sign-in" checked>
+                        <label class="formList" for="log-in">Log in</label>
+                        <input class="formList" type="radio" name="sign-in" id="log-in"></li>
+                             <!-- submit-->
+                        <li><input id="submitButton" type="submit" form="loginboxes" value="submit"></li>
+                        </ul>   
+>>>>>>> 3bc619343b8ae88ab978718e0bab8b61a6aacb32
                     </form>
                 </div>
             </div>
