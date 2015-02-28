@@ -34,7 +34,7 @@ body {
 /*The header for the workout table*/
 h1{
 	color: orange;
-	text-align:center;
+	text-align:left;
 }
 /*The table for the workout log*/
 #table_holder{	
@@ -46,13 +46,23 @@ h1{
 	background-image: url("../images/brushedsteel.jpg");
 	box-shadow: 8px 5px 5px black;
 }
+
+#workout_form{
+	position: relative;
+	color: red;
+	width:100%;
+}
+.workout_form{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
 /*Sets up the table*/
 .workout_table{
-	width:80%;
+	width:50%;
 	height:80%;
 	border-collapse:collapse;
-	margin-left:auto;
-	margin-right:auto;
+	float: left;
 }
 /*Sets up the table data*/
 .workout_table td{
