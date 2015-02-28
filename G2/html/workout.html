@@ -5,7 +5,10 @@
         <meta charset="utf-8" />
 	
         <link rel="stylesheet" type="text/css" href="../css/base.css">
+
 		<link href="../css/workout.css" rel="stylesheet" type="text/css">
+
+        <script src="./javascript/foworkouttable.js"></script>
         <title>Workout Page</title>
     </head>	
     <body>
@@ -64,8 +67,58 @@
                 </div>
             </div>
 
+<<<<<<< HEAD
         </div>
 		<p id="clear"></p>
+=======
+		
+		<div id="content">
+        <div id="table_holder">
+		<h1> Workout Table </h1>
+            <form id="tableboxes" action="http://webdevfoundations.net/scripts/formdemo.asp">
+			    <table class="workout_table">
+					    <tr><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td></tr>
+					    <tr><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td></tr>
+					    <tr><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td></tr>
+					    <tr><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td></tr>
+					    <tr><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td></tr>
+			    </table>
+                
+            </form>	
+			
+			<div id ="workout_form">
+			<form id="workout" action="http://webdevfoundations.net/scripts/formdemo.asp" method="post">
+				<table class="workout_form">
+					<tr><td colspan="3"><label for="workout_name">Workout Title *</label></td></tr>					
+					<tr><td colspan="3"><input type="text" name="workout_name" id="workout_name" size="50" required></td></tr>
+					<tr><td colspan="3"><label for="textBox">Workout description</label></td></tr>
+					<tr><td colspan="3"><textarea name="workout_desc" id="textBox" cols="45" rows="10"></textarea></td></tr>
+					<tr><td><input type="number" name="month" id ="month" size="1" required> / </td><td><input type="number" name="day" id="day" size="1" required> / </td><td><input type ="number" name="year" id="year" size="3" required></td></tr>
+					<tr><td><label for="month">MM</label></td><td><label for="day">DD</label></td><td><label for="year">YYYY</label></td></tr>
+					<tr><td colspan="3"><label for="body_weight">Body Weight</label></td></tr>
+					<tr><td colspan="3"><input type="number" name="body_wight" id="body_wight"></td></tr>
+					<tr><td><input id="submitButton" type="submit" form="workout" value="submit"></td></tr>
+					
+				</table>
+			</form>	
+			</div>
+		</div>
+
+		
+		
+		<div id="user">
+			<img id="prof_pic" src="../images/stock_headshot.jpg" alt="profile pic">
+			<a href="./member.html"> Link to Member Page </a>			
+		</div>
+		
+		<div id="ads">
+		</div>
+		
+			<p class="clear"> </p>
+			
+		</div>
+		
+>>>>>>> cfe49ea5a05ee6cbaa2cb06d575ef74dcdfeead7
 		<div id="footer">
 
             <p><a href="http://validator.w3.org/check?uri=sjcomp1536.webuda.com%2Fg2%2Fhtml%2Fworkout.html&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0"> W3C HTML </a>
