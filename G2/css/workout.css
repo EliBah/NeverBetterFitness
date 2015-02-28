@@ -27,7 +27,7 @@ body {
 #table{
 	background-image: url("../images/brushedsteel.jpg");
 	/*Color should be orange #ff7c00*/
-	height: 500px;
+	height: 600px;
 	width: 100%;
 	box-shadow: 15px 15px 15px black;
 	margin-left: 5%;
@@ -38,6 +38,54 @@ body {
     float:  right;
 	margin-top: 1%;
 }
+
+/*The header for the workout table*/
+h1{
+	color: orange;
+	text-align:left;
+}
+
+/*The table for the workout log*/
+#table_holder{	
+	position:absolute;
+	bottom: 250px;
+	left: 50px;
+	width: 75%;
+	height: 700px;
+	background-image: url("../images/brushedsteel.jpg");
+	box-shadow: 8px 5px 5px black;
+}
+
+#workout_form{
+	position: relative;
+	color: red;
+	width:100%;
+}
+.workout_form{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*Sets up the table*/
+.workout_table{
+	width:50%;
+	height:80%;
+	border-collapse:collapse;
+	float: left;
+}
+/*Sets up the table data*/
+.workout_table td{
+	border: #3a352d 10px solid; 	
+}
+/*Sets up the table rows*/
+.workout_table tr{
+	background: #ff7c00;
+}
+/*Sets up the hover for the table data*/
+.workout_table td:hover {
+	background-color: #ffff99;
+}
+
 #user{
 	background-image: url("../images/brushedsteel.jpg");
 	/*Color should be orange #ff7c00*/
