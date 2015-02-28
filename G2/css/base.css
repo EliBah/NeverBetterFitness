@@ -100,4 +100,5 @@ a.menulink:hover{
     box-shadow: 8px 5px 5px black;
     background-image: url("../images/holesteel.jpg");
     text-align: center;
+	clear:both;
 }
