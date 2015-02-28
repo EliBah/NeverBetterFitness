@@ -5,6 +5,7 @@
         <meta charset="utf-8" />
 		<link href="../css/workout.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="../css/base.css">
+        <script src="./javascript/foworkouttable.js"></script>
         <title>Workout Page</title>
     </head>	
     <body>
@@ -16,10 +17,10 @@
             </div>
             <div id="nav">
                 <ul id="navmenu">
-                    <li class="list"><a class="menulink" href="../index.html"><img src="../images/home_button.gif" width="170" height="70" alt="Home"></a></li>
-                    <li class="list"><a class="menulink" href="../html/about.html"><img src="../images/button_about_contact.gif" width="170" height="70" alt="About"></a></li>
-                    <li class="list"><a class="menulink" href="../html/blog.html"><img src="../images/button_blog.gif" width="170" height="70" alt="Blog"></a></li>
-                    <li class="list"><img src="../images/button_fourth.gif" width="170" height="70" alt="Fourth"></li>
+                    <li class="list"><a href="../index.html" class="button">Home</a></li>
+                    <li class="list"><a href="./about.html" class="button">About/Contact</a></li>
+                    <li class="list"><a href="./blog.html" class="button">Blog</a></li>
+                    <li class="list"><a href="../index.html" class="button">TBD</a></li>
                 </ul>
             </div>
         </div>
@@ -28,18 +29,21 @@
 		<div id="content">
         <div id="table_holder">
 		<h1> Workout Table </h1>
-			<table class="workout_table">
-					<tr><td>Text</td><td>Text</td><td>Text</td><td>Text</td><td>Text</td><td>Text</td></tr>
-					<tr><td>Text</td><td>Text</td><td>Text</td><td>Text</td><td>Text</td><td>Text</td></tr>
-					<tr><td>Text</td><td>Text</td><td>Text</td><td>Text</td><td>Text</td><td>Text</td></tr>
-					<tr><td>Text</td><td>Text</td><td>Text</td><td>Text</td><td>Text</td><td>Text</td></tr>
-					<tr><td>Text</td><td>Text</td><td>Text</td><td>Text</td><td>Text</td><td>Text</td></tr>
-			</table>
+            <form id="tableboxes" action="http://webdevfoundations.net/scripts/formdemo.asp">
+			    <table class="workout_table">
+					    <tr><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td></tr>
+					    <tr><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td></tr>
+					    <tr><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td></tr>
+					    <tr><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td></tr>
+					    <tr><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td><td contentEditable>Text</td></tr>
+			    </table>
+                
+            </form>	
 			
 			<div id ="workout_form">
 			<form id="workout" action="http://webdevfoundations.net/scripts/formdemo.asp" method="post">
 				<table class="workout_form">
-					<tr><td colspan="3"><label for="workout_name">Workout Title *</td></label></tr>					
+					<tr><td colspan="3"><label for="workout_name">Workout Title *</label></td></tr>					
 					<tr><td colspan="3"><input type="text" name="workout_name" id="workout_name" size="50" required></td></tr>
 					<tr><td colspan="3"><label for="textBox">Workout description</label></td></tr>
 					<tr><td colspan="3"><textarea name="workout_desc" id="textBox" cols="45" rows="10"></textarea></td></tr>
