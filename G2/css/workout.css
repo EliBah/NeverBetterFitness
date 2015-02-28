@@ -46,7 +46,7 @@ h1{
 }
 
 /*The table for the workout log*/
-#table_holder{	
+#table_holder{		
 	position:absolute;
 	bottom: 250px;
 	left: 50px;
@@ -63,6 +63,8 @@ h1{
 }
 .workout_form{
 	position: relative;
+	width:90%;
+	height: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
