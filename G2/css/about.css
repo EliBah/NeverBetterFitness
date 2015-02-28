@@ -77,12 +77,20 @@ body {
 	padding-left: 10px;
 	padding-right: 10px;
 }
-/*Styles the arm logo*/
+/*Styles the map's div*/
 #logo{
     width: 400px;
     height: 400px;
-    float: left;
-    background-image: url("../images/armlogoTransparent.png");
-	background-size: 100%;
-    background-repeat: no-repeat;
+    float: left; 
 }
+/*Styles the Google map */
+#map {
+	margin-top: 75px;
+	width: 400px;
+	height: 220px;
+	border: 5px ridge #3a352d;
+	box-shadow: 15px 15px 15px black;
+}
+
+
+
