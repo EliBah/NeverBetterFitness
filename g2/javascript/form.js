@@ -1,28 +1,31 @@
 function signUp() {	
 	//Sets up and creates the email field
 	var divholder = document.getElementById("email_holder");
-	var createform = document.createElement('input');	
-	createform.setAttribute("type", "email");
-	createform.setAttribute("name", "email");
-	createform.setAttribute("id", "email");
-	createform.setAttribute("required", "required");
-	createform.setAttribute("class", "formList");
-	
-	//Creates the email label
-	var createlabel = document.createElement('label');
-	createlabel.innerHTML = "E-Mail: ";
-	createlabel.setAttribute("for", "email");
-	createlabel.setAttribute("class", "formList");
-	createlabel.setAttribute("id", "email_label");
+	var check = document.getElementById('email');
+	if(!check){
+		var createform = document.createElement('input');	
+		createform.setAttribute("type", "email");
+		createform.setAttribute("name", "email");
+		createform.setAttribute("id", "email");
+		createform.setAttribute("required", "required");
+		createform.setAttribute("class", "formList");
+		
+		//Creates the email label
+		var createlabel = document.createElement('label');
+		createlabel.innerHTML = "E-Mail: ";
+		createlabel.setAttribute("for", "email");
+		createlabel.setAttribute("class", "formList");
+		createlabel.setAttribute("id", "email_label");
 
-	//Creates the line break
-	var linebreak = document.createElement('br');
-	linebreak.setAttribute("id", "email_br");
-	
-	//Adds all the objects to the page
-	divholder.appendChild(createlabel);
-	divholder.appendChild(linebreak);
-	divholder.appendChild(createform);		
+		//Creates the line break
+		var linebreak = document.createElement('br');
+		linebreak.setAttribute("id", "email_br");
+		
+		//Adds all the objects to the page
+		divholder.appendChild(createlabel);
+		divholder.appendChild(linebreak);
+		divholder.appendChild(createform)
+		}	
 }
 
 function logIn() {
