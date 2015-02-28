@@ -5,6 +5,7 @@
         <meta charset="utf-8" />
         <link href="./css/index.css" rel="stylesheet" type="text/css">
         <link href="./css/base.css" rel="stylesheet" type="text/css">
+		<script src="./javascript/form.js"></script>
         <title>home</title>
     </head>
     <body>
@@ -14,11 +15,10 @@
             </div>
             <div id="nav">
                 <ul id="navmenu">
-
-                    <li class="list"><a class="menulink" href="index.html"><img src="images/home_button.gif" alt="home" width="170" height="70"></a></li>
-                    <li class="list"><a class="menulink" href="html/about.html"><img src="images/button_about_contact.gif" alt="about/contact" width="170" height="70"></a></li>
-                    <li class="list"><a class="menulink" href="html/blog.html"><img src="images/button_blog.gif" alt="blog" width="170" height="70"></a></li>
-                    <li class="list"><img src="images/button_fourth.gif" alt="fourth" width="170" height="70"></li>
+                    <li class="list"><a href="./index.html" class="button">Home</a></li>
+                    <li class="list"><a href="./html/about.html" class="button">About/Contact</a></li>
+                    <li class="list"><a href="./html/blog.html" class="button">Blog</a></li>
+                    <li class="list"><a href="./index.html" class="button">TBD</a></li>
 
                 </ul>
             </div>
@@ -34,13 +34,26 @@
                     <p> Sign up or login in here to take full advantage of our site!</p>
                 </div>
                 <div id="loginFields">
-                    <form id="loginboxes">
-                        e-mail:<br>
-                        <input type="text" name="e-mail"><br>
-                        Username:<br>
-                        <input type="text" name="username"><br>
-                        Password:<br>
-                        <input type="text" name="password">
+                    <form id="loginboxes" action="http://webdevfoundations.net/scripts/formdemo.asp">
+                        <ul id="form">
+                            <!-- email-->
+                        <li><label class="formList" for="e-mail">e-mail:</label><br>
+                        <input class="formList" type="email" name="e-mail" id="e-mail" onblur="email_id" required="required"></li>
+                            <!-- username -->
+                        <li><label class="formList" for="username">Username:</label><br>
+                        <input class="formList" type="text" name="username" id="username" onblur="user_id" required="required"></li>
+                             <!--password-->
+                        <li><label class="formList" for="password">Password:</label><br>
+                        <input class="formList" type="password" name="password" id="password" onblur="pass_id" required="required"></li>
+                             <!-- radio buttons -->
+                        <li><label class="formList" for="sign-in">Sign up!</label>
+                        <input class="formList" type="radio" name="sign-in" id="sign-in" checked>
+                        <label class="formList" for="log-in">Log in</label>
+                        <input class="formList" type="radio" name="sign-in" id="log-in"></li>
+                             <!-- submit-->
+                        <li><input id="submitButton" type="submit" form="loginboxes" value="submit"></li>
+                        </ul>   
+
                     </form>
                 </div>
             </div>
