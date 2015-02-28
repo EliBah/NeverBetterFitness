@@ -1,0 +1,128 @@
+/*Diamond plate background set up*/
+body {
+    margin: 0px;
+    background-image: url("../images/diamondplate.jpg");
+    background-size: 100% auto;
+}
+/*Holds the first main content box*/
+#content1{
+    width: 70%;
+    height: 400px ;
+    margin: auto;
+    margin-top: 25%;
+    background-image: url("../images/brushedsteel.jpg");
+    background-size: 100% 100%;
+    box-shadow: 8px 8px 8px black;
+}
+/*creates left side where arm logo is*/
+#logo{
+    width: 45%;
+    height: 60%;
+    margin: 3%;
+    margin-top: 10%;
+    float: left;
+    background-image: url("../images/armlogoTransparent.png");
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    
+}
+/*Main login box*/
+#login{
+    border: 1px solid black;
+    width: 40%;
+    height: 90%;
+    margin: 3%;
+    float:right;
+    background-image: url("../images/orange.jpg");
+    background-size: 100% 100%;
+    box-shadow: 8px 8px 8px black;
+}
+/*Hold instruction at top of login box*/
+#loginHead{
+    border: 8px ridge #3a352d;
+    width: 90%;
+    height: 20%;
+    margin: 2% auto;
+    color: #fff;
+    text-align: center;
+    background-image: url("../images/brushedsteel.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+/*Holds fields for user input*/
+#loginFields{
+    border:  8px ridge #3a352d;
+    width: 90%;
+    height: 65%;
+    margin: 3% auto;
+    background-image: url("../images/brushedsteel.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/*Placement of login fields*/
+#loginboxes{
+    margin-top: 5%  ;
+    color: #fff;
+    
+}
+
+/*Second content frame*/
+#content2{
+    
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+    margin-top: 8%;
+    background-image: url("../images/holesteel.jpg");
+    box-shadow: 15px 15px 15px black;
+}
+/*Left column for content*/
+#column1 {
+    width:25%;
+    display: inline-block;
+    margin: auto 3% ;
+    margin-left: 5%;
+    height: 95%;
+}
+
+/*Center Column for Content*/
+#column2 {
+    width:25%;
+    display: inline-block;
+    margin: auto 3%;
+    height: 95%;
+}
+/*Center column for content*/
+#column3 {
+    width:25%;
+    display: inline-block;
+    margin: auto 3%;
+    height: 95%;
+}
+/*Individual Content Boxes class*/
+.contentBox{
+    border: 5px ridge #3a352d;
+    height: 30%;
+    width: 100%;
+    margin-top: 10%;
+    box-shadow: 15px 15px 15px black;
+    background-image: url("../images/brushedsteel.jpg");
+}
+/*Content boxes' Heading*/
+.contentheading{
+    background-image: url("../images/orange.jpg");
+    background-size: 100% 100%;
+    color: #fff;
+}
+/*Text colour white due to dark background*/
+p{
+    color: #fff;
+}
+
+#form{
+    list-style: none;
+}
+.formList{
+    margin: 7px;
+}
