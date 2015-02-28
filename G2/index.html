@@ -36,30 +36,22 @@
                 </div>
                 <div id="loginFields">
 
-                    <form id="loginboxes" action="http://webdevfoundations.net/scripts/formdemo.asp" method="post">
-                        <ul>                        
-                        <li><label for="username">Username:</label><br>
-                        <input type="text" name="username" required="required"></li>
-                        <li><label for="Password">Password:</label><br>
-                        <input type="password" name="password" required="required"></li>
-                        </ul>
-
                     <form id="loginboxes" action="http://webdevfoundations.net/scripts/formdemo.asp">
-                        <ul id="form">
-                            <!-- email-->
-                        <li><label class="formList" for="e-mail">e-mail:</label><br>
-                        <input class="formList" type="email" name="e-mail" id="e-mail" onblur="email_id" required="required"></li>
+                        <ul id="form">                        
                             <!-- username -->
                         <li><label class="formList" for="username">Username:</label><br>
                         <input class="formList" type="text" name="username" id="username" onblur="user_id" required="required"></li>
                              <!--password-->
                         <li><label class="formList" for="password">Password:</label><br>
                         <input class="formList" type="password" name="password" id="password" onblur="pass_id" required="required"></li>
-                             <!-- radio buttons -->
-                        <li><label class="formList" for="sign-in">Sign up!</label>
-                        <input class="formList" type="radio" name="sign-in" id="sign-in" checked>
-                        <label class="formList" for="log-in">Log in</label>
-                        <input class="formList" type="radio" name="sign-in" id="log-in"></li>
+                             <!-- email--> 
+						<div id="email_holder"></div>
+                        
+							<!-- radio buttons -->
+                        <li><label class="formList" for="sign_up">Sign up!</label>	
+						<input type="radio" name="sign_in" id="sign_up" value="new_user" onclick="signUp()"/>
+                        <label class="formList" for="log_in" >Log in</label>
+						<input type="radio" name="sign_in" id="log_in" value="existing_user" onclick="logIn()" checked />						
                              <!-- submit-->
                         <li><input id="submitButton" type="submit" form="loginboxes" value="submit"></li>
                         </ul>   
