@@ -27,7 +27,7 @@ body {
 #table{
 	background-image: url("../images/brushedsteel.jpg");
 	/*Color should be orange #ff7c00*/
-	height: 500px;
+	height: 600px;
 	width: 100%;
 	box-shadow: 15px 15px 15px black;
 	margin-left: 5%;
@@ -37,6 +37,12 @@ body {
     width:30%;
     float:  right;
 	margin-top: 1%;
+}
+
+/*The header for the workout table*/
+h1{
+	color: orange;
+	text-align:left;
 }
 
 /*The table for the workout log*/
@@ -69,7 +75,6 @@ body {
 }
 /*Sets up the table data*/
 .workout_table td{
-	padding:7px;
 	border: #3a352d 10px solid; 	
 }
 /*Sets up the table rows*/
