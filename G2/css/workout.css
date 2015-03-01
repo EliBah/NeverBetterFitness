@@ -70,7 +70,7 @@ h1{
 }
 /*Sets up the table*/
 .workout_table{
-	width:50%;
+	width:95%;
 	height:80%;
 	border-collapse:collapse;
 	float: left;
