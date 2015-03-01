@@ -70,7 +70,7 @@ h1{
 }
 /*Sets up the table*/
 .workout_table{
-	width:50%;
+	width:95%;
 	height:80%;
 	border-collapse:collapse;
 	float: left;
@@ -107,7 +107,8 @@ h1{
 	height: 100px;
 	border-radius: 150px;
 	float: left;
-	margin-left: 30px;
+	margin-left: 15px;
+	margin-right: 5px;
 }
 #workout_form{
 	background-image: url("../images/brushedsteel.jpg");

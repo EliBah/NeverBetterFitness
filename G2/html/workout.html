@@ -10,9 +10,11 @@
     </head>	
     <body>
 <div id="header">
+            <a href="../index.html">
             <div id="img">
-                
+              
             </div>
+            </a>
             <div id="nav">
                 <ul id="navmenu">
                     <li class="list"><a href="../index.html" class="button">Home</a></li>
@@ -28,12 +30,12 @@
 				<div id="table">
 					<h1> Workout Table </h1>
 					<table class="workout_table">
-							<tr><td contentEditable colspan="2"></td><td contentEditable colspan="3">Date 1</td>
-                            <tr><td contentEditable colspan="2">Excercises</td><td contentEditable>Reps</td><td contentEditable>Weight</td><td contentEditable>Sets</td>
-							<tr><td contentEditable colspan="2"></td><td contentEditable></td></td><td contentEditable></td><td contentEditable></td>
-							<tr><td contentEditable colspan="2"></td><td contentEditable></td><td contentEditable></td><td contentEditable></td>
-							<tr><td contentEditable colspan="2"></td><td contentEditable></td><td contentEditable></td><td contentEditable></td>
-							<tr><td contentEditable colspan="2"></td><td contentEditable></td><td contentEditable></td><td contentEditable></td>
+							<tr><td contentEditable colspan="2"></td><td contentEditable colspan="3">Date 1</td><td contentEditable colspan="3">Date 2</td><td contentEditable colspan="3">Date 3</td></tr>
+                            <tr><td contentEditable colspan="2">Excercises</td><td contentEditable>Reps</td><td contentEditable>Weight</td><td contentEditable>Sets</td><td contentEditable>Reps</td><td contentEditable>Weight</td><td contentEditable>Sets</td><td contentEditable>Reps</td><td contentEditable>Weight</td><td contentEditable>Sets</td></tr>
+							<tr><td contentEditable colspan="2"></td><td contentEditable></td></td><td contentEditable></td><td contentEditable></td><td contentEditable></td></td><td contentEditable></td><td contentEditable></td><td contentEditable></td></td><td contentEditable></td><td contentEditable></td></tr>
+							<tr><td contentEditable colspan="2"></td><td contentEditable></td></td><td contentEditable></td><td contentEditable></td><td contentEditable></td></td><td contentEditable></td><td contentEditable></td><td contentEditable></td></td><td contentEditable></td><td contentEditable></td></tr>
+							<tr><td contentEditable colspan="2"></td><td contentEditable></td></td><td contentEditable></td><td contentEditable></td><td contentEditable></td></td><td contentEditable></td><td contentEditable></td><td contentEditable></td></td><td contentEditable></td><td contentEditable></td></tr>
+							<tr><td contentEditable colspan="2"></td><td contentEditable></td></td><td contentEditable></td><td contentEditable></td><td contentEditable></td></td><td contentEditable></td><td contentEditable></td><td contentEditable></td></td><td contentEditable></td><td contentEditable></td></tr>
 					</table>
                     
 				</div>
@@ -51,19 +53,20 @@
                 <div id="workout_form">
                     <form id="workout" action="http://webdevfoundations.net/scripts/formdemo.asp" method="post">
 						<table class="workout_form">
+
 							<tr><td><label for="month"> MM/ </label><label for="day">DD/ </label><label for="year">YYYY</label></tr>
 							<tr><td colspan="3"><input type="number" name="month" class="date" required>/<input type="number" name="day" class="date" size="1" required>/<input type ="number" name="year" class="date" size="3" required></td></tr>
-							
+						
 							<tr><td colspan="3"><label for="body_weight">Body Weight</label></td></tr>
 							<tr><td colspan="3"><input type="number" name="body_wight" id="body_wight"></td></tr>
 							
 							<tr><td><label for="exercise1"> Exercise 1</label></td><td>Reps</td><td>Sets</td></tr>
 							<tr><td><input type="text" name="exercise1" id="exercise1" onClick="this.select()" value="Description..."></td><td><input type="number" name="exercise1" id="exercise1" value="10" onClick="this.select()"></td><td><input type="number" name="exercise1" id="exercise1" value="10" onClick="this.select()"></td></tr>
 							
-							<tr><td><label for="exercise1"> Exercise 2</label></td><td>Reps</td><td>Sets</td></tr>
+							<tr><td><label for="exercise2"> Exercise 2</label></td><td>Reps</td><td>Sets</td></tr>
 							<tr><td><input type="text" name="exercise2" id="exercise3" onClick="this.select()" value="Description..."></td><td><input type="number" name="exercise2" id="exercise2" value="10" onClick="this.select()"></td><td><input type="number" name="exercise2" id="exercise2" value="10" onClick="this.select()"></td></tr>
 							
-							<tr><td><label for="exercise1"> Exercise 3</label></td><td>Reps</td><td>Sets</td></tr>
+							<tr><td><label for="exercise3"> Exercise 3</label></td><td>Reps</td><td>Sets</td></tr>
 							<tr><td><input type="text" name="exercise3" id="exercise3" onClick="this.select()" value="Description..."></td><td><input type="number" name="exercise3" id="exercise3" value="10" onClick="this.select()"></td><td><input type="number" name="exercise3" id="exercise3" value="10" onClick="this.select()"></td></tr>
 							
 							
