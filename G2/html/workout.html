@@ -54,20 +54,20 @@
                     <form id="workout" action="http://webdevfoundations.net/scripts/formdemo.asp" method="post">
 						<table class="workout_form">
 
-							<tr><td><label for="month"> MM/ </label><label for="day">DD/ </label><label for="year">YYYY</label></tr>
-							<tr><td colspan="3"><input type="number" name="month" class="date" required>/<input type="number" name="day" class="date" size="1" required>/<input type ="number" name="year" class="date" size="3" required></td></tr>
+							<tr><td><label for="month">  MM/ </label><label for="day"> DD/ </label><label for="year"> YYYY</label></tr>
+							<tr><td colspan="3"><input type="number" name="month" id="month" class="date" required>/<input type="number" id="day" name="day" class="date" required>/<input type ="number" id="year" name="year" class="date"  required></td></tr>
 						
 							<tr><td colspan="3"><label for="body_weight">Body Weight</label></td></tr>
-							<tr><td colspan="3"><input type="number" name="body_wight" id="body_wight"></td></tr>
+							<tr><td colspan="3"><input type="number" name="body_weight" id="body_weight"></td></tr>
 							
-							<tr><td><label for="exercise1"> Exercise 1</label></td><td>Reps</td><td>Sets</td></tr>
-							<tr><td><input type="text" name="exercise1" id="exercise1" onClick="this.select()" value="Description..."></td><td><input type="number" name="exercise1" id="exercise1" value="10" onClick="this.select()"></td><td><input type="number" name="exercise1" id="exercise1" value="10" onClick="this.select()"></td></tr>
+							<tr><td><label for="exercise1"> Exercise 1</label></td><td><label for="reps1">Reps</label> </td><td><label for="sets1">Sets</label></td></tr>
+							<tr><td><input type="text" name="exercise1" id="exercise1" onClick="this.select()" value="Description..."></td><td><input type="number" name="reps1" id="reps1" class="reps" value="10" onClick="this.select()"></td><td><input type="number" name="sets1"  id="sets1" class="sets" value="10" onClick="this.select()"></td></tr>
 							
-							<tr><td><label for="exercise2"> Exercise 2</label></td><td>Reps</td><td>Sets</td></tr>
-							<tr><td><input type="text" name="exercise2" id="exercise3" onClick="this.select()" value="Description..."></td><td><input type="number" name="exercise2" id="exercise2" value="10" onClick="this.select()"></td><td><input type="number" name="exercise2" id="exercise2" value="10" onClick="this.select()"></td></tr>
+							<tr><td><label for="exercise2"> Exercise 2</label></td><td><label for="reps2">Reps</label></td><td><label for="sets2">Sets</label></td></tr>
+							<tr><td><input type="text" name="exercise2" id="exercise2" onClick="this.select()" value="Description..."></td><td><input type="number" name="reps2"  id="reps2" class="reps" value="10" onClick="this.select()"></td><td><input type="number" name="sets2" id="sets2" class="sets" value="10" onClick="this.select()"></td></tr>
 							
-							<tr><td><label for="exercise3"> Exercise 3</label></td><td>Reps</td><td>Sets</td></tr>
-							<tr><td><input type="text" name="exercise3" id="exercise3" onClick="this.select()" value="Description..."></td><td><input type="number" name="exercise3" id="exercise3" value="10" onClick="this.select()"></td><td><input type="number" name="exercise3" id="exercise3" value="10" onClick="this.select()"></td></tr>
+							<tr><td><label for="exercise3"> Exercise 3</label></td><td><label for="reps3">Reps</label></td><td><label for="sets3">Sets</label></td></tr>
+							<tr><td><input type="text" name="exercise3" id="exercise3" onClick="this.select()" value="Description..."></td><td><input type="number" name="reps3"  id="reps3" class="reps" value="10" onClick="this.select()"></td><td><input type="number" name="sets3" id="sets3" class="sets" value="10" onClick="this.select()"></td></tr>
 							
 							
 							<tr><td colspan="3"><label for="textBox">Workout description</label></td></tr>
