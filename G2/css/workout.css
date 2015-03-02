@@ -42,7 +42,7 @@ body {
 /*The header for the workout table*/
 h1{
 	color: orange;
-	text-align:left;
+	text-align:center;
 }
 
 /*The table for the workout log*/
@@ -120,6 +120,9 @@ h1{
     margin-top:  5%;
 	box-shadow: 15px 15px 15px black;
 
+}
+#invisible{
+	visibility: hidden;
 }
 
 #clear{
