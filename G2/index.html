@@ -6,7 +6,7 @@
         <link href="./css/index.css" rel="stylesheet" type="text/css">
         <link href="./css/base.css" rel="stylesheet" type="text/css">
 		<script src="./javascript/form.js"></script>
-        <title>home</title>
+        <title>Home</title>
     </head>
     <body>
         <div id="header">
@@ -20,7 +20,11 @@
                     <li class="list"><a href="./index.html" class="button">Home</a></li>
                     <li class="list"><a href="./html/about.html" class="button">About/Contact</a></li>
                     <li class="list"><a href="./html/blog.html" class="button">Blog</a></li>
+<<<<<<< HEAD
                     <li class="list"><a href="./html/member.html" class="button">Member</a></li>
+=======
+                    <li class="list"><a href="./member.html" class="button">Member</a></li>
+>>>>>>> 05f968b171669cca5ae7d646193a34d2dfd13046
                 </ul>
             </div>
         </div>
@@ -45,7 +49,7 @@
                         <li><label class="formList" for="password">Password:</label><br>
                         <input class="formList" type="password" name="password" id="password" onblur="pass_id" required="required"></li>
                              <!-- email--> 
-						<div id="email_holder"></div>
+						<li><div id="email_holder"></div></li>
                         
 							<!-- radio buttons -->
                         <li><label class="formList" for="sign_up">Sign up!</label>	
@@ -53,7 +57,7 @@
                         <label class="formList" for="log_in" >Log in</label>
 						<input type="radio" name="sign_in" id="log_in" value="existing_user" onclick="logIn()" checked />						
                              <!-- submit-->
-                        <li><input id="submitButton" type="submit" form="loginboxes" value="submit"></li>
+                        <li><input class="formList" id="submitButton" type="submit" form="loginboxes" value="Submit"></li>
                         </ul>   
 
                     </form>

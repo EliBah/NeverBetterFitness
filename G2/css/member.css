@@ -31,8 +31,7 @@ body {
 /*Style for the first column in the content*/
 #column1 {
     width:25%;
-    display: inline-block;
-    
+    display: inline-block;    
     margin: auto 3% ;
     margin-left: 5%;
     height: 95%;
@@ -109,11 +108,7 @@ progress[value] {
 #link1 {
    margin: auto;
    margin-bottom: 25%;
-   padding: 1% 7%;
-  
-   width: 26%;
-   height: 10%;
-   
+   padding: 1% 7%;   
    text-align: left; 
 }
 
@@ -139,6 +134,12 @@ progress[value] {
    text-align: left; 
 }
 
+#workout_link{
+	font-size: 80px;
+}
+
 p{
   color: #fff;
 }
+
+
