@@ -9,7 +9,7 @@ body {
     width: 70%;
     height: 400px ;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 25%;
     background-image: url("../images/brushedsteel.jpg");
     background-size: 100% 100%;
     box-shadow: 8px 8px 8px black;
@@ -84,7 +84,6 @@ body {
     margin: auto 3% ;
     margin-left: 5%;
     height: 95%;
-    
 }
 
 /*Center Column for Content*/
@@ -110,8 +109,6 @@ body {
     box-shadow: 15px 15px 15px black;
     background-image: url("../images/brushedsteel.jpg");
 }
-
-
 /*Content boxes' Heading*/
 .contentheading{
     background-image: url("../images/orange.jpg");
@@ -128,14 +125,4 @@ p{
 }
 .formList{
     margin: 7px;
-}
-h3{
-    color: #fff;
-}
-img{
-    float: left;
-    margin: 0px 10px 0px 10px;
-    
-    max-height: 40%;
-    max-width: 60%;
 }
