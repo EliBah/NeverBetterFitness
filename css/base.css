@@ -89,23 +89,11 @@ a.menulink:hover{
     height: 100%;
     
 }
-
-/*Sets up the link list in the footer*/
-.list2{
-    color: #fff;
-    display: inline-block;
-    margin:0.5%;
-    margin-right: 5%;
-    padding: 1% 5%;
-    width: 5%;
-    height: 10%;
-}
-
 /*Sets up the footer for each of the pages*/
 #footer{
 	color: white;
     border: 3px solid orange;
-    width: 50%;
+    width: 90%;
     height: 130px;
     margin: auto;
     margin-top: 5%;
