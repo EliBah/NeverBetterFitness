@@ -47,7 +47,7 @@
                 </div>
                 <div id="loginFields">
 
-                    <form id="loginboxes" action="http://webdevfoundations.net/scripts/formdemo.asp">
+                    <form id="loginboxes" action="./html/login.php">
                         <ul id="form">                        
                             <!-- username -->
                         <li><label class="formList" for="username">Username:</label><br>
