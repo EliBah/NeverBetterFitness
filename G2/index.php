@@ -1,6 +1,6 @@
 <?php
-	include 'functions.php';
-	require_once('config.php');
+	include './html/functions.php';
+	require_once('./html/config.php');
 	session_start();
 
 	// Connect to server and select database.
@@ -69,10 +69,10 @@
                         <?php
 			                if (isLoggedIn()){
 				                echo 'Welcome: '.$_SESSION['SESS_FIRST_NAME'].'<br>';
-				                echo '<a href="logout.php">Logout</a><br/>';
+				                echo '<a href="./html/logout.php">Logout</a><br/>';
 			                } else {
-				                echo '<a href="login_form.php">Login</a><br/>';
-				                echo '<a href="register_form.php">New user?</a>';
+				                echo '<a href="./html/login_form.php">Login</a><br/>';
+				                echo '<a href="./html/register_form.php">New user?</a>';
 			                }
 		                ?>   
 
