@@ -65,7 +65,16 @@
 						<input type="radio" name="sign_in" id="log_in" value="existing_user" onclick="logIn()" checked />						
                              <!-- submit-->
                         <li><input class="formList" id="submitButton" type="submit" form="loginboxes" value="Submit"></li>
-                        </ul>   
+                        </ul>
+                        <?php
+			                if (isLoggedIn()){
+				                echo 'Welcome: '.$_SESSION['SESS_FIRST_NAME'].'<br>';
+				                echo '<a href="logout.php">Logout</a><br/>';
+			                } else {
+				                echo '<a href="login_form.php">Login</a><br/>';
+				                echo '<a href="register_form.php">New user?</a>';
+			                }
+		                ?>   
 
                     </form>
                 </div>
