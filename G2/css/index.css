@@ -91,7 +91,7 @@ body {
     width:25%;
     display: inline-block;
     margin: auto 3%;
-    height: 95%;
+    height: 95%; 
 }
 /*Center column for content*/
 #column3 {
@@ -126,3 +126,20 @@ p{
 .formList{
     margin: 7px;
 }
+
+/* Resizing/Scaling Modifications */
+#content1 {
+    max-width: 1000px;
+    min-width: 1000px;
+}
+
+#content2 {
+    max-width: 1000px;
+    min-width: 1000px;
+}
+
+#body {
+    max-width: 1000px;
+    min-width: 1000px;
+}
+

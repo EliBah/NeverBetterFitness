@@ -4,7 +4,7 @@
 body {
     margin: 0px;
     background-image: url("../images/diamondplate.jpg");
-    background-size: 100% auto;
+    background-size: 1000px auto;
 }
 
 /*Style for page specific lists*/
@@ -20,37 +20,39 @@ body {
 /*Style for the main content section*/
 #content {
     color: #fff;
-    width: 75%;
+    width: 1187px;
     height: 390px;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 250px;
     box-shadow: 15px 15px 15px black;
-    background-image: url("../images/brushedsteel.jpg")    
+    background-image: url("../images/brushedsteel.jpg");   
+
+     
 }
 
 /*Style for the first column in the content*/
 #column1 {
-    width:25%;
+    width:297px;
     display: inline-block;    
-    margin: auto 3% ;
-    margin-left: 5%;
+    margin: auto 39px ;
+    margin-left: 100px;
     height: 95%;
 }
 
 /*Style for the second column in the content*/
 #column2 {
-    width:25%;
+    width: 296px;
     display: inline-block;
     margin: auto 3%;
-    height: 95%;
+    height: 371px;
 }
 
 /*Style for the third column in the content*/
 #column3 {
-    width:25%;
+    width: 297px;
     display: inline-block;
     margin: auto 3%;
-    height: 95%;
+    height: 371px;
 }
 
 /*Style for the user image in the first column*/

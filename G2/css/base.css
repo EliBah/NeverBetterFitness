@@ -1,6 +1,6 @@
 /*Sets up the header for all of the pages*/
 #header {
-    width: 95%;
+    width:  95%;
     margin: auto;
     height: 120px;
     padding: 2%;
@@ -11,6 +11,7 @@
     box-shadow: 15px 15px 15px black;
 	z-index: 1;
 }
+
 /*Sets up the navbar for all of the pages*/
 #nav{
     float: right;
@@ -113,4 +114,21 @@ a.menulink:hover{
     background-image: url("../images/holesteel.jpg");
     text-align: center;
 	clear:both;
+    
+}
+
+/* Resizing/Scaling Modifications */
+
+
+
+#header {
+    max-width: 1490px;
+    min-width: 1490px;
+    max-height: 120px;
+    min-height: 120px; 
+}
+
+#footer {
+    max-width: 1180px;
+    min-width: 1180px;
 }
