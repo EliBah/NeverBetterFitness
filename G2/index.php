@@ -71,7 +71,6 @@
 				                echo 'Welcome: '.$_SESSION['SESS_FIRST_NAME'].'<br>';
 				                echo '<a href="./html/logout.php">Logout</a><br/>';
 			                } else {
-				                echo '<a href="./html/login_form.php">Login</a><br/>';
 				                echo '<a href="./html/register_form.php">New user?</a>';
 			                }
 		                ?>   
