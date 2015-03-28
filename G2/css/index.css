@@ -2,6 +2,7 @@
 body {
     margin: 0px;
     background-image: url("../images/diamondplate.jpg");
+    background-color: black;
     background-size: 100% auto;
 }
 /*Holds the first main content box*/
@@ -11,6 +12,7 @@ body {
     margin: auto;
     margin-top: 20%;
     background-image: url("../images/brushedsteel.jpg");
+    background-color: black;
     background-size: 100% 100%;
     box-shadow: 8px 8px 8px black;
 }
@@ -22,6 +24,7 @@ body {
     margin-top: 10%;
     float: left;
     background-image: url("../images/armlogoTransparent.png");
+    background-color: black;
     background-repeat: no-repeat;
     background-size: 300px auto;
     
@@ -34,6 +37,7 @@ body {
     margin: 3%;
     float:right;
     background-image: url("../images/orange.jpg");
+    background-color: #ff6a00;
     background-size: 100% 100%;
     box-shadow: 8px 8px 8px black;
 }
@@ -46,6 +50,7 @@ body {
     color: #fff;
     text-align: center;
     background-image: url("../images/brushedsteel.jpg");
+    background-color: black;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     
@@ -57,6 +62,7 @@ body {
     height: 65%;
     margin: 3% auto;
     background-image: url("../images/brushedsteel.jpg");
+    background-color: black;
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -74,7 +80,11 @@ body {
     height: 1000px;
     margin: auto;
     margin-top: 8%;
-    background-image: url("../images/holesteel.jpg");
+    background-color: rgba(255,140,0, 0.35);
+	border-radius: 75px;
+	border-style: ridge;
+	border-width: 8px;
+	border-color: rgba(255,140,0,.35);
     box-shadow: 15px 15px 15px black;
 }
 /*Left column for content*/
@@ -109,12 +119,14 @@ body {
     margin-top: 10%;
     box-shadow: 15px 15px 15px black;
     background-image: url("../images/brushedsteel.jpg");
+    background-color: black;
 }
 
 
 /*Content boxes' Heading*/
 .contentheading{
     background-image: url("../images/orange.jpg");
+    background-color: #ff6a00;
     background-size: 100% 100%;
     color: #fff;
 }
