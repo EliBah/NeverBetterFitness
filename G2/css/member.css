@@ -4,7 +4,9 @@
 body {
     margin: 0px;
     background-image: url("../images/diamondplate.jpg");
+    background-color: black;
     background-size: 100% auto;
+    background-size: 1000px auto;
 }
 
 /*Style for page specific lists*/
@@ -20,37 +22,42 @@ body {
 /*Style for the main content section*/
 #content {
     color: #fff;
-    width: 75%;
+    width: 1187px;
     height: 390px;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 250px;
     box-shadow: 15px 15px 15px black;
-    background-image: url("../images/brushedsteel.jpg")    
+    background-image: url("../images/brushedsteel.jpg");    
+    background-color: black;
+    background-image: url("../images/brushedsteel.jpg");   
 }
 
 /*Style for the first column in the content*/
 #column1 {
-    width:25%;
+    width:297px;
     display: inline-block;    
     margin: auto 3% ;
     margin-left: 5%;
+    height: 100%;
+    margin: auto 39px ;
+    margin-left: 100px;
     height: 95%;
 }
 
 /*Style for the second column in the content*/
 #column2 {
-    width:25%;
+    width: 296px;
     display: inline-block;
     margin: auto 3%;
-    height: 95%;
+    height: 371px;
 }
 
 /*Style for the third column in the content*/
 #column3 {
-    width:25%;
+    width: 297px;
     display: inline-block;
     margin: auto 3%;
-    height: 95%;
+    height: 371px;
 }
 
 /*Style for the user image in the first column*/
@@ -62,7 +69,7 @@ body {
    float: left;
    margin-left: 1%;
    margin:auto;
-   margin-top: 5%;
+   margin-top: 0px;
    box-shadow: 8px 5px 5px black;
    
 }
@@ -105,42 +112,46 @@ progress[value] {
    text-align: left;
 }
 
-/*Style for the first link in the third column*/
-#link1 {
-   margin: auto;
-   margin-bottom: 25%;
-   padding: 1% 7%;   
-   text-align: left; 
+.links{
+  text-align: center;
 }
 
-/*Style for the second link in the third column*/
+.memLi{
+    margin-bottom:  40px;
+}
 
-#link2 {
-   margin: auto;
-   margin-bottom: 25%;
-   padding: 1% 7%;
-   width: 26%;
-   height: 10%;
-   text-align: left; 
+#memLinks{
+    list-style-type: none;
+    
+}
+
+#login{
+    border: 1px solid black;
+    width: 100%;
+    height: 90%;
+    margin: 3%;
+    float:right;
+    background-image: url("../images/orange.jpg");
+    background-color: #ff6a00;
+    background-size: 100% 100%;
+    box-shadow: 8px 8px 8px black;
 }
 
 
-/*Style for the third link in the third column*/
-#link3 {
-   margin: auto;
-   margin-bottom: 25%;
-   padding: 1% 7%;
-   width: 26%;
-   height: 10%;
-   text-align: left; 
+/*Holds fields for user input*/
+#loginFields {
+    
+    border: 8px ridge #3a352d;
+    width: 90%;
+    height: 90%;
+    margin: 3% auto 3% auto;
+    background-image: url("../images/brushedsteel.jpg");
+    background-color: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
-
-#workout_link{
-	font-size: 80px;
-}
-
-p{
-  color: #fff;
+#picForm{
+    margin-left: 40px;
 }
 
 

@@ -2,6 +2,7 @@ function signUp() {
 	//Sets up and creates the email field
 	var divholder = document.getElementById("email_holder");
 	var check = document.getElementById('email');
+    var submit = "./html/login.php"
 	if(!check){
 		var createform = document.createElement('input');	
 		createform.setAttribute("type", "email");
@@ -25,6 +26,8 @@ function signUp() {
 		divholder.appendChild(createlabel);
 		divholder.appendChild(linebreak);
 		divholder.appendChild(createform)
+
+        submit = "./html/register.php"
 		}	
 }
 

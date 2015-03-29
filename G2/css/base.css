@@ -1,10 +1,11 @@
 /*Sets up the header for all of the pages*/
 #header {
-    width: 95%;
+    width:  95%;
     margin: auto;
     height: 120px;
     padding: 2%;
     background-image: url("../images/holesteel.jpg");
+    background-color: black;
     background-size: 120px 95%;
     position: fixed;
     top: 0px;
@@ -15,6 +16,7 @@
 #nav{
     float: right;
     background-image: url("../images/orange.jpg");
+    background-color: #ff6a00;
     background-size: 100% 100%;
     width: 80%;
     height: 80%;
@@ -58,6 +60,7 @@ a:active {
     margin-top: 10px;
     padding: 1% 5%;
     background-image: url("../images/brushedsteel.jpg");
+    background-color: black;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 12%;
@@ -109,8 +112,30 @@ a.menulink:hover{
     height: 130px;
     margin: auto;
     margin-top: 5%;
-    box-shadow: 8px 5px 5px black;
-    background-image: url("../images/holesteel.jpg");
+
     text-align: center;
 	clear:both;
+    background-color: rgba(255,140,0, 0.25);
+    
+	border-radius: 75px;
+	border-style: ridge;
+	border-width: 8px;
+	border-color: rgba(255,140,0,.35);
+    box-shadow: 15px 15px 15px black;
+}
+
+/* Resizing/Scaling Modifications */
+
+
+
+#header {
+    max-width: 1490px;
+    min-width: 1490px;
+    max-height: 120px;
+    min-height: 120px; 
+}
+
+#footer {
+    max-width: 1180px;
+    min-width: 1180px;
 }

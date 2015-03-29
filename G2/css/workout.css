@@ -10,33 +10,36 @@ html {
 body {
     margin: 0px;
     background-image: url("../images/diamondplate.jpg");
+    background-color: black;
     background-size: 100% auto;	
+    background-size: 1000px auto;	
 }
 
 #main{ 
-	margin-top: 15%;
+	margin-top: 250px;
 	margin-bottom: 5%;
 }	
 
 #column1{
-    width: 60%;
+    width: 950px;
 	float: left;
-	
 	
 }
 #table{
 	background-image: url("../images/brushedsteel.jpg");
+    background-color: black;
 	/*Color should be orange #ff7c00*/
 	height: 600px;
-	width: 100%;
+	width: 950px;
 	box-shadow: 15px 15px 15px black;
-	margin-left: 5%;
+	margin-left: 40px;
 }
 
 #column2{
-    width:30%;
-    float:  right;
-	margin-top: 1%;
+    width: 475px;
+    float: right;
+	margin-top: 20px;
+    margin-right: 50px;
 }
 
 /*The header for the workout table*/
@@ -53,25 +56,25 @@ h1{
 	width: 75%;
 	height: 700px;
 	background-image: url("../images/brushedsteel.jpg");
+    background-color: black;
 	box-shadow: 8px 5px 5px black;
 }
 
 #workout_form{
 	position: relative;
 	color: red;
-	width:100%;
 }
 .workout_form{
 	position: relative;
-	width:90%;
-	height: 90%;
+	width:  475px;
+	height: 400px;
 	margin-left: auto;
 	margin-right: auto;
 }
 /*Sets up the table*/
 .workout_table{
-	width:95%;
-	height:80%;
+	width: 902px;
+	height: 480px;
 	border-collapse:collapse;
 	float: left;
 }
@@ -90,10 +93,11 @@ h1{
 
 #user{
 	background-image: url("../images/brushedsteel.jpg");
+    background-color: black;
 	/*Color should be orange #ff7c00*/
 	height: 100px;
 	color:#ff7c00;
-	width: 100%;
+	width: 475px;
 	float: left;
 	top: 50px;
 	right: 100px;
@@ -107,11 +111,12 @@ h1{
 	height: 100px;
 	border-radius: 150px;
 	float: left;
-	margin-left: 15px;
+	margin-left: 30px;
 	margin-right: 5px;
 }
 #workout_form{
 	background-image: url("../images/brushedsteel.jpg");
+    background-color: black;
 	/*Color should be orange #ff7c00*/
 	height: 400px;
 	color: #ff7c00;
@@ -134,7 +139,15 @@ h1{
     }
 .reps{
         width: 35px;
+        margin-right: 30px;
     }
 .sets{
         width: 35px;
+        margin-right: 100px;
     }
+
+#workout {
+        width: 475px;
+        height: 400px;
+        margin-left: 50px;
+    }    
