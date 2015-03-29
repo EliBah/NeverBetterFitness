@@ -57,13 +57,6 @@
                         <input class="formList" type="password" name="password" id="password" onblur="pass_id" required="required"></li>
                              <!-- email--> 
 						<li><div id="email_holder"></div></li>
-                        
-							<!-- radio buttons -->
-                        <li><label class="formList" for="sign_up">Sign up!</label>	
-						<input type="radio" name="sign_in" id="sign_up" value="new_user" onclick="signUp()"/>
-                        <label class="formList" for="log_in" >Log in</label>
-						<input type="radio" name="sign_in" id="log_in" value="existing_user" onclick="logIn()" checked />						
-                             <!-- submit-->
                         <li><input class="formList" id="submitButton" type="submit" form="loginboxes" value="Submit"></li>
                         </ul>
                         <?php
@@ -71,7 +64,7 @@
 				                echo 'Welcome: '.$_SESSION['SESS_FIRST_NAME'].'<br>';
 				                echo '<a href="./html/logout.php">Logout</a><br/>';
 			                } else {
-				                echo '<a href="./html/register_form.php">New user?</a>';
+				                echo '<a href="./html/register_form.php">Not a member? Click here to sign up.</a>';
 			                }
 		                ?>   
 
