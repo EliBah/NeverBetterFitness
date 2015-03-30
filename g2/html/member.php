@@ -14,7 +14,7 @@
 				mysql_connect(DB_HOST, DB_USER, DB_PASSWORD)or die("cannot connect");
 				mysql_select_db(DB_DATABASE)or die("cannot select DB");
 				
-				$sql="SELECT login FROM members";
+				$sql="SELECT * FROM members";
 				$result=mysql_query($sql);
 
 				$rows=mysql_fetch_array($result);
