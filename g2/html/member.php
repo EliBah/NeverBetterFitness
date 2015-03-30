@@ -26,14 +26,18 @@
 				
 				foreach($userfile as $line) 
 				{ 
-					if(strpos($line,$rows['login']) !== false) { //need to grab session name
-						// break apart the line by delimiters to get date/name/percentage
-							$str = $line;//
-							$info = explode("||", $str);// $info is an array
-						break;
-					} else {
-						echo "Error loading information. ";
-					}
+                     if (isLoggedIn()){
+    
+    //Question 4a: adding user first name to a welcome message
+    echo 'Welcome'.$_SESSION['SESS_FIRST_NAME'],' <br>';
+    echo '<a href="logout.php">Logout</a><br/>';
+    echo '<a href="forum.php">Go to forum</a><br/>';
+    echo '>><a href="add_topic_form.php">Create new topic</a>';
+   } else {
+    echo '<a href="login_form.php">Login</a><br/>';
+    echo '<a href="register_form.php">New user?</a>';
+   }
+					
 				}
 				
 				?>
