@@ -2,7 +2,10 @@
 body {
     margin: 0px;
     background-image: url("../images/diamondplate.jpg");
+    background-color: black;
+    background-size: 100% auto;
     background-size: 1000px auto;
+
 }
 /*Contains the columns*/
 #content2{   
@@ -31,24 +34,100 @@ body {
     margin-top: 10%;
     box-shadow: 15px 15px 15px black;
     background-image: url("../images/brushedsteel.jpg");
+    background-color: black;
 }
+.contentBox#Gina{
+height: 700px;
+
+}
+.contentBox#kaleSalad{
+height: 1400px;
+text-align: center;
+}
+.contentBox#pullUps{
+    height: 2000px;
+    
+}
+.contentBox#Jawbone{
+    height: 1200px;
+    text-align: center;
+}
+.contentBox#wk13{
+    height: 900px;
+    text-align: center;
+}
+.contentBox#squats{
+    height: 1600px;
+    text-align: left;
+}
+
+.contentBox#begRunner{
+    height: 1600px;
+    text-align: left;
+}
+.contentBox#pInjury{
+    height: 1600px;
+    text-align: center;
+}
+.contentBox#bikeCafe{
+    height: 1100px;
+    text-align: left;
+}
+
 /*Styles the headings of the content boxes*/
 .contentheading{
     background-image: url("../images/orange.jpg");
+    background-color: #ff6a00;
     background-size: 100% 100%;
     color: #ffffff;
 }
 /*Styles text inside the content boxes*/
-.contentBox p {
+p  {
 	color: #ffffff;
 	padding-right: 30px;
 	padding-left: 30px;
+	font-family: georgia,"Times New Roman", Times, serif;
+	font-size: 18px;
 }
-#footer{
-	color: #ffffff;
-	text-align: center;
-    font-size: 20px;
+
+li{
+color: #ffffff;
+list-style: none;
+font-family: georgia,"Times New Roman", Times, serif;
+font-size: 18px;
 }
+
+h2{
+color: #ffffff;
+margin-left: 25px;
+font-family: georgia,"Times New Roman", Times, serif;
+
+}
+h3{
+color: #ffffff;
+margin-left: 25px;
+font-family: georgia,"Times New Roman", Times, serif;
+font-weight: bold;
+}
+h4{
+color: #ffffff;
+margin-left: 25px;
+font-family: georgia,"Times New Roman", Times, serif;
+font-weight: bold;
+text-decoration: underline;
+}
+img#ginaimg{
+margin-left: 25px;
+margin-right: 50px;
+}
+img{
+margin: 25px;
+max-height:400px;
+max-width: 400px;
+}
+.left{
+text-align: left;}
+
 
 body {
     max-width: 1000px;
