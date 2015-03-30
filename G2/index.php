@@ -21,14 +21,14 @@
     </head>
     <body>
         <div id="header">
-            <a href="index.html">
+            <a href="index.php">
             <div id="img">
               
             </div>
             </a>
             <div id="nav">
                 <ul id="navmenu">
-                    <li class="list"><a href="./index.html" class="button">Home</a></li>
+                    <li class="list"><a href="./index.php" class="button">Home</a></li>
                     <li class="list"><a href="./html/about.html" class="button">About/Contact</a></li>
                     <li class="list"><a href="./html/blog.html" class="button">Blog</a></li>
                     <li class="list"><a href="./html/member.php" class="button">Member</a></li>
@@ -132,7 +132,7 @@
                 </div>
                 <div class="contentBox">
                     <h1 class="contentheading">Injury</h1>
-                    <img src="./images/Stretch.jpg" alt="Stretching">
+                    <img src="./images/Stretch.JPG" alt="Stretching">
                     <h3>Preventing injury</h3>
                     <p>Injuries are never fun, but you shouldn't wait until you get hurt to get informed. Be sure to check out these quick tips in order to reduce your chances of injury.
                         <a href="http://sportsmedicine.about.com/od/injuryprevention/a/safe-workouts.htm">[More]</a></p>
@@ -143,7 +143,7 @@
                     <img src="./images/weights.jpg" alt="weights">
                     <h3>SQUATS!</h3>
                     <p>Whether you fear injury or you are just not feeling the burn, our expert trainer is here to give you a few things to keep in mind when doing squats.
-                        <br><a href="http://www.builtlean.com/2010/07/20/how-to-do-proper-squat-technique/">[More]</a></p>
+                        <a href="http://www.builtlean.com/2010/07/20/how-to-do-proper-squat-technique/">[More]</a></p>
                 </div>
             </div>
         </div>
@@ -151,10 +151,10 @@
             <p><a href="http://validator.w3.org/check?uri=http%3A%2F%2Fsjcomp1536.webuda.com%2Fg2%2Findex.html"> W3C HTML </a>
 		<a href="http://jigsaw.w3.org/css-validator/validator?uri=sjcomp1536.webuda.com%2Fg2%2Findex.html%E2%80%8F&amp;profile=css3&amp;usermedium=all&amp;warning=1&amp;vextwarning"> W3C CSS </a></p>
             <ul id="sitemap">
-                    <li class="list2"><a href="./index.html" class="button">Home Page</a></li>
+                    <li class="list2"><a href="./index.php" class="button">Home Page</a></li>
                     <li class="list2"><a href="./html/about.html" class="button">Contact Us</a></li>
                     <li class="list2"><a href="./html/blog.html" class="button">Blog Posts</a></li>
-                    <li class="list2"><a href="./html/member.html" class="button">Member Page</a></li>
+                    <li class="list2"><a href="./html/member.php" class="button">Member Page</a></li>
              </ul>
         </div>
     </body>
