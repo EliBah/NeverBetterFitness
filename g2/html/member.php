@@ -9,17 +9,17 @@
     </head>
     <body>
         <div id="header">
-            <a href="../index.html">
+            <a href="../index.php">
             <div id="img">
               
             </div>
             </a>
             <div id="nav">
                 <ul id="navmenu">
-					<li class="list"><a href="../index.html" class="button">Home</a></li>
+					<li class="list"><a href="../index.php" class="button">Home</a></li>
                     <li class="list"><a href="./about.html" class="button">About/Contact</a></li>
                     <li class="list"><a href="./blog.html" class="button">Blog</a></li>
-                    <li class="list"><a href="./member.html" class="button">Member</a></li>
+                    <li class="list"><a href="./member.php" class="button">Member</a></li>
                 </ul>
             </div>
         </div>
@@ -107,10 +107,10 @@
 		<a href="http://jigsaw.w3.org/css-validator/validator?uri=sjcomp1536.webuda.com%2Fg2%2Fcss%2Fmember.css&amp;profile=css3&amp;usermedium=all&amp;warning=1&amp;vextwarning=&amp;lang=en"> W3C CSS </a></p>
             
             <ul id="sitemap">
-                    <li class="list2"><a href="./index.html" class="button">Home Page</a></li>
+                    <li class="list2"><a href="./index.php" class="button">Home Page</a></li>
                     <li class="list2"><a href="./html/about.html" class="button">Contact Us</a></li>
                     <li class="list2"><a href="./html/blog.html" class="button">Blog Posts</a></li>
-                    <li class="list2"><a href="./html/member.html" class="button">Member Page</a></li>
+                    <li class="list2"><a href="./html/member.php" class="button">Member Page</a></li>
              </ul>            
         </div>
  
