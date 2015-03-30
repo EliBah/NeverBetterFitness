@@ -4,22 +4,17 @@
 				require_once('config.php');
 				session_start();
 
-				// Connect to server and select database.
-				mysql_connect(DB_HOST, DB_USER, DB_PASSWORD)or die("cannot connect");
-				mysql_select_db(DB_DATABASE)or die("cannot select DB");
-				$tbl_name="topic"; // Table name
-				
 				//Question 4b: do not allow users to view topic is user is not logged in.
 				if (!isLoggedIn()){
 					echo "Please log in to view topic!";
 					exit(); 
 				}
 				
-				// get value of id that sent from address bar
-				$id=$_GET['id'];
-
-				//Question 4d: Access info from the members table
-				$sql="SELECT * FROM $tbl_name, members WHERE id='$id'";
+				// Connect to server and select database.
+				mysql_connect(DB_HOST, DB_USER, DB_PASSWORD)or die("cannot connect");
+				mysql_select_db(DB_DATABASE)or die("cannot select DB");
+				
+				$sql="SELECT * FROM members";
 				$result=mysql_query($sql);
 
 				$rows=mysql_fetch_array($result);

@@ -1,15 +1,32 @@
+html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
 /*Page body*/
 body {
+	height: 100%;
     margin: 0px;
     background-image: url("../images/diamondplate.jpg");
     background-color: black;
     background-size: 100% auto;
+<<<<<<< HEAD
 
+=======
+    background-size: 1000px auto;
+}
+#bendyDivOfDoom{
+	min-height:100%;
+	margin-top:250px;
+	position:relative;
+}
+.clearDivOfDoom{
+	clear: both;
+>>>>>>> d2b924196070ff80fb3a80abd76362ab838547cb
 }
 /*Contains the columns*/
 #content2{   
-    width: 1050px;
-    height: 1000px;
+    width: 100%;
     margin: auto;
     margin-top: 8%;
 	padding-top: 50px;
@@ -132,4 +149,8 @@ body {
     max-width: 1000px;
     min-width: 1000px;
 }
-
+#footer{
+	margin: 50px 0 30px 0;
+	position:relative;
+	margin-top: 0%;
+}
