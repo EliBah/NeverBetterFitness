@@ -22,9 +22,9 @@ body {
     height: 256px; 
     margin-top: -10px;
     float: left;
-    background-color: black;
+
     background-image: url("../images/armlogoName.png");
-    background-repeat: no-repeat;
+
     background-size: 300px auto;  
     z-index: 1;  
 }

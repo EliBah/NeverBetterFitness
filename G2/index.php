@@ -68,9 +68,11 @@
                         <?php
 			                if (isLoggedIn()){
 				                echo 'Welcome: '.$_SESSION['SESS_FIRST_NAME'].'<br>';
-				                echo '<a href="./html/logout.php">Logout</a><br/>';
+				                echo '<a
+                                 href="./html/logout.php">Logout</a><br/>';
 			                } else {
-				                echo '<a href="./html/register_form.php">Not a member? Click here to sign up.</a>';
+				                echo '<a
+                                 href="./html/register_form.php">Not a member? Click here to sign up.</a>';
 			                }
 		                ?>   
 
