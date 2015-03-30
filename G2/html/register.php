@@ -39,6 +39,7 @@
 	$password = clean($_POST['password']);
 	$cpassword = clean($_POST['cpassword']);
 	
+	
 	//Input Validations
 	if($fname == '') {
 		$errmsg_arr[] = 'First name missing';
@@ -88,7 +89,18 @@
 		header("location: register_form.php");
 		exit();
 	}
-
+	
+	$file = 'users.txt';
+	$temporaryBlackMagic = file_get_contents($file);
+	$temporaryBlackMagic .= "\n";
+	$temporaryBlackMagic .= $login;
+	$temporaryBlackMagic .= "||";
+	$temporaryBlackMagic .= $fname;
+	$temporaryBlackMagic .= "||";
+	$temporaryBlackMagic .= $lname;
+	$temporaryBlackMagic .= "||";
+	file_put_contents($file, $temporaryBlackMagic);
+	
 	//Create INSERT query
 	$qry = "INSERT INTO members(firstname, lastname, login, passwd) VALUES('$fname','$lname','$login','".md5($_POST['password'])."')";
 	$result = @mysql_query($qry);
@@ -100,4 +112,6 @@
 	}else {
 		die("Query failed");
 	}
+	
+	
 ?>

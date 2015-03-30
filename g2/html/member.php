@@ -48,9 +48,9 @@
 				$rows=mysql_fetch_array($result);
 				
 				//Question 4b: do not allow users to view topic is user is not logged in.
-				/*if (!isLoggedIn()){
+				if (!isLoggedIn()){
 					echo "Please log in to view topic!";
-					exit(); */
+					exit(); 
 				
 				
 				
@@ -117,4 +117,3 @@
     </body>
  
 </html>
-
