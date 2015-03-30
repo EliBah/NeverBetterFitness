@@ -40,6 +40,7 @@
            
                     <div id="logo">
                 </div>
+                </div>
         <div id="content1">
         <div id="armLogoBox">  
              <div id="logo">
