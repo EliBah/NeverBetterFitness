@@ -35,18 +35,14 @@
                 </ul>
             </div>
         </div>
-
-<<<<<<< HEAD
                 <div id="content1">
                     <div id="armLogoBox">  
            
                     <div id="logo">
                 </div>
-=======
         <div id="content1">
         <div id="armLogoBox">  
              <div id="logo">
->>>>>>> 42b81279f1315e2a57716eb50d4df376aea905aa
             </div>
         </div>
             
